@@ -1,14 +1,15 @@
 package run
 
 import (
-	logger "github.com/sirupsen/logrus"
-	"github.com/wuchunfu/IpProxyPool/fetcher/ip3366"
-	"github.com/wuchunfu/IpProxyPool/fetcher/ip66"
-	"github.com/wuchunfu/IpProxyPool/fetcher/ip89"
-	"github.com/wuchunfu/IpProxyPool/middleware/storage"
-	"github.com/wuchunfu/IpProxyPool/models/ipModel"
 	"sync"
 	"time"
+
+	"github.com/alphayan/ipproxy-pool/fetcher/ip3366"
+	"github.com/alphayan/ipproxy-pool/fetcher/ip66"
+	"github.com/alphayan/ipproxy-pool/fetcher/ip89"
+	"github.com/alphayan/ipproxy-pool/middleware/storage"
+	"github.com/alphayan/ipproxy-pool/models/ipModel"
+	logger "github.com/sirupsen/logrus"
 )
 
 func Task() {

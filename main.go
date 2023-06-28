@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/wuchunfu/IpProxyPool/api"
-	"github.com/wuchunfu/IpProxyPool/cmd"
-	"github.com/wuchunfu/IpProxyPool/middleware/config"
-	"github.com/wuchunfu/IpProxyPool/middleware/database"
-	"github.com/wuchunfu/IpProxyPool/middleware/logutil"
-	"github.com/wuchunfu/IpProxyPool/run"
 	"runtime"
+
+	"github.com/alphayan/ipproxy-pool/api"
+	"github.com/alphayan/ipproxy-pool/cmd"
+	"github.com/alphayan/ipproxy-pool/middleware/config"
+	"github.com/alphayan/ipproxy-pool/middleware/database"
+	"github.com/alphayan/ipproxy-pool/middleware/logutil"
+	"github.com/alphayan/ipproxy-pool/run"
 )
 
 func main() {

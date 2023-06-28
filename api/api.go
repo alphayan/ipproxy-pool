@@ -4,12 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	logger "github.com/sirupsen/logrus"
-	"github.com/wuchunfu/IpProxyPool/middleware/config"
-	"github.com/wuchunfu/IpProxyPool/middleware/storage"
-	"github.com/wuchunfu/IpProxyPool/util/iputil"
 	"net/http"
 	"time"
+
+	"github.com/alphayan/ipproxy-pool/middleware/config"
+	"github.com/alphayan/ipproxy-pool/middleware/storage"
+	"github.com/alphayan/ipproxy-pool/util/iputil"
+	logger "github.com/sirupsen/logrus"
 )
 
 // Run for request

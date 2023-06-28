@@ -7,7 +7,7 @@ ENV LANG="en_US.UTF-8"
 #RUN set -eux \
 #    && go env -w GO111MODULE=on \
 #    && go env -w GOPROXY=https://goproxy.cn,direct \
-#    && go get github.com/wuchunfu/IpProxyPool
+#    && go get github.com/alphayan/ipproxy-pool
 
 # 指定工作目录
 WORKDIR /app

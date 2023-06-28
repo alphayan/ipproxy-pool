@@ -48,7 +48,7 @@
 
 ```shell
 # 克隆项目
-git clone https://github.com/wuchunfu/IpProxyPool.git
+git clone https://github.com/alphayan/ipproxy-pool.git
 
 # 切换项目目录
 cd IpProxyPool
@@ -84,7 +84,7 @@ chmod +x IpProxyPool
 
 ```shell
 # 克隆项目
-git clone https://github.com/wuchunfu/IpProxyPool.git
+git clone https://github.com/alphayan/ipproxy-pool.git
 
 # 进入项目目录
 cd IpProxyPool

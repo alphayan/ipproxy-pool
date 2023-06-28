@@ -3,14 +3,15 @@ package storage
 import (
 	"crypto/tls"
 	"fmt"
-	"github.com/wuchunfu/IpProxyPool/models/ipModel"
-	"github.com/wuchunfu/IpProxyPool/util/randomutil"
-	"golang.org/x/net/http2"
 	"net"
 	"net/http"
 	"net/url"
 	"sync"
 	"time"
+
+	"github.com/alphayan/ipproxy-pool/models/ipModel"
+	"github.com/alphayan/ipproxy-pool/util/randomutil"
+	"golang.org/x/net/http2"
 
 	logger "github.com/sirupsen/logrus"
 )

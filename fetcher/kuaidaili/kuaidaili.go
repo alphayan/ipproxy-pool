@@ -2,13 +2,14 @@ package kuaidaili
 
 import (
 	"fmt"
-	"github.com/PuerkitoBio/goquery"
-	logger "github.com/sirupsen/logrus"
-	"github.com/wuchunfu/IpProxyPool/fetcher"
-	"github.com/wuchunfu/IpProxyPool/models/ipModel"
-	"github.com/wuchunfu/IpProxyPool/util"
 	"strconv"
 	"strings"
+
+	"github.com/PuerkitoBio/goquery"
+	"github.com/alphayan/ipproxy-pool/fetcher"
+	"github.com/alphayan/ipproxy-pool/models/ipModel"
+	"github.com/alphayan/ipproxy-pool/util"
+	logger "github.com/sirupsen/logrus"
 )
 
 // 国内高匿代理

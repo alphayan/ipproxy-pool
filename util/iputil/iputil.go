@@ -54,7 +54,7 @@ func GetLocalIP() (ip string, err error) {
 	return
 }
 
-//	获取客户ip地址
+// 获取客户ip地址
 func GetClientIp() string {
 	addrs, _ := net.InterfaceAddrs()
 
@@ -70,7 +70,7 @@ func GetClientIp() string {
 	return "Can not find the client ip address!"
 }
 
-//	获取服务端ip
+// 获取服务端ip
 func GetServerIP() string {
 	host, _ := os.Hostname()
 	addrs, _ := net.LookupIP(host)
